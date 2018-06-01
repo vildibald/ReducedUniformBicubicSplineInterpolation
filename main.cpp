@@ -81,7 +81,6 @@ void PrintSurfaceDeboorResult(ComparisonBenchmarkResult &result) {
 void PerformSurfaceBenchmark(ComparisonBenchmarkResult &result, bool inParallel = false) {
     unsigned int numIterations;
     unsigned int numKnots;
-    std::cout << "Spline surface benchmark" << std::endl << std::endl;
     std::cout << "Enter number of iterations: " << std::endl;
     std::cin >> numIterations;
     std::cout << "Enter number of knots: " << std::endl;
